@@ -1,17 +1,17 @@
-namespace TreehouseDefense
+namespace TreeDefense
 {
-    class TreehouseDefenseException : System.Exception
+    class TreeDefenseException : System.Exception
     {
-        public TreehouseDefenseException()
+        public TreeDefenseException()
         {
         }
         
-        public TreehouseDefenseException(string message) : base(message)
+        public TreeDefenseException(string message) : base(message)
         {
         }
     }
     
-    class OutOfBoundsException : TreehouseDefenseException
+    class OutOfBoundsException : TreeDefenseException
     {
         public OutOfBoundsException()
         {
