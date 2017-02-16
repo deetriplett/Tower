@@ -1,6 +1,6 @@
 using System;
 
-namespace TreehouseDefense
+namespace CastleDefense
 {
     class Game
     {
@@ -50,9 +50,9 @@ namespace TreehouseDefense
             {
                 Console.WriteLine(ex.Message);
             }
-            catch(TreehouseDefenseException)
+            catch(CastleDefenseException)
             {
-                Console.WriteLine("Unhandled TreehouseDefenseException");
+                Console.WriteLine("Unhandled CastleDefenseException");
             }
             catch(Exception ex)
             {
