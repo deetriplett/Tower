@@ -1,4 +1,4 @@
-namespace CastleDefense
+namespace TreehouseDefense
 {
     class MapLocation : Point
     {
