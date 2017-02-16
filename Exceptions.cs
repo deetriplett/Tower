@@ -1,17 +1,17 @@
-namespace TreehouseDefense
+namespace CastleDefense
 {
-    class TreehouseDefenseException : System.Exception
+    class CastleDefenseException : System.Exception
     {
-        public TreehouseDefenseException()
+        public CastleDefenseException()
         {
         }
         
-        public TreehouseDefenseException(string message) : base(message)
+        public CastleDefenseException(string message) : base(message)
         {
         }
     }
     
-    class OutOfBoundsException : TreehouseDefenseException
+    class OutOfBoundsException : CastleDefenseException
     {
         public OutOfBoundsException()
         {
